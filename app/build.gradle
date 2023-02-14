@@ -15,6 +15,9 @@ dependencies {
     // Use the awesome Spock testing and specification framework even with Java
     testImplementation 'org.spockframework:spock-core:2.2-groovy-3.0'
 
+    // Code generation library needed for Spock mocking and stubbing non-interface classes
+    testImplementation 'net.bytebuddy:byte-buddy:1.13.0'
+
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.1-jre'
 }
